@@ -1,0 +1,38 @@
+@charset  "UTF-8";
+*{
+    font-family: sans-serif;
+
+}
+p{
+    text-align: justify;
+}
+body{
+    background-image: linear-gradient(to top, #034159, #025951, #02735E, #038C3E, #0CF25D);
+}
+main{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+}
+h1{ text-align: center;
+    color: #034159;
+    text-shadow: 1px 1px 1px  rgb(1, 32, 44) ;
+}
+h2{
+    color: #025951;
+}
+
+/*background-image: linear-gradient(to top, #034159, #025951, #02735E, #038C3E, #0CF25D); serve para cololocar gradiente como fundo /
+
+/* é uma tag que junto de width px e padding px criam uma caixa /
+
+/*  margin: auto; na tag main centraliza a caixa/
+
+/*  border-radius: 10px; faz com que as bordas da caixa fiquem aredondadas/
+
+/*  box-shadow: 5px 5px 15px rgb(0, 0, 0); cria sombras na caixa /
+
+/*  text-shadow: 1px 1px 1px  rgb(1, 32, 44) ; em um texto(h1, p) faz sombra/
